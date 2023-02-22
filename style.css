@@ -1,0 +1,297 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: serif;
+    color: #030e12;
+    height: 100%;
+    width: 100%;
+}
+
+/* CSS FOR HOME */
+.box1 {
+    position: absolute;
+    padding: 5px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: #fcde67;
+}
+
+.box2 {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: #fcde67;
+
+}
+
+.box3 {
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    top: 82%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: #5bccf6;
+}
+
+
+header {
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 3%;
+    letter-spacing: 3px;
+}
+
+.role {
+    position: relative;
+    bottom: 35px;
+    left: 5px;
+    font-size: 15px;
+}
+
+nav {
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    top: 10%;
+    letter-spacing: 3px;
+}
+
+/* Buttons in navigation bar */
+#home {
+    padding-inline: 4px;
+    border-color: #fcde67;
+    background-color: #030e12;
+}
+
+#skills {
+    padding-inline: 4px;
+    border-color: #fcde67;
+    background-color: #030e12;
+}
+
+#experience {
+    padding-inline: 4px;
+    border-color: #fcde67;
+    background-color: #030e12;
+}
+
+#hobbies {
+    padding-inline: 4px;
+    border-color: #fcde67;
+    background-color: #030e12;
+}
+
+#home:hover {
+    color: #030004;
+    background-color: #fcfcfc;
+
+}
+
+#experience:hover {
+    color: #030004;
+    background-color: #fcfcfc;
+
+}
+
+#skills:hover {
+    color: #030004;
+    background-color: #fcfcfc;
+
+}
+
+#hobbies:hover {
+    color: #030004;
+    background-color: #fcfcfc;
+
+}
+
+main {
+    position: absolute;
+    z-index: 1;
+}
+
+.name {
+    position: relative;
+    letter-spacing: 4px;
+    top: -35px;
+    left: -65px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    ;
+    margin-right: 25px;
+}
+
+
+.image {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+#profile {
+    width: 350px;
+    margin-right: 50px;
+    height: 350px;
+    border-style: solid;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.hello {
+    position: relative;
+    bottom: 170px;
+    left: 600px;
+    margin-right: 50px;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+
+}
+
+.bitaboutme {
+    font-size: 20px;
+    position: relative;
+
+    bottom: 20px;
+}
+
+.paragraph {
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+.contact {
+    position: relative;
+    height: 60px;
+    width: 400px;
+    top: 575px;
+    left: 50px;
+}
+
+#contact {
+    width: 30px;
+    height: 30px;
+}
+
+.contacth4 {
+    position: relative;
+    left: 50px;
+    top: -68px;
+    bottom: 5px;
+    font-size: 17px;
+}
+
+.contactinfo {
+    position: relative;
+    left: 50px;
+    top: -87px;
+    bottom: 5px;
+    font-size: 14px;
+}
+
+.socials {
+    height: 60px;
+    width: 400px;
+    position: relative;
+    font-size: 17px;
+    z-index: 1;
+    top: 482px;
+    left: 520px;
+
+}
+
+#facebook {
+    top: -15px;
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin {
+    top: -15px;
+    width: 30px;
+    height: 30px;
+}
+
+#instagram {
+    top: -15px;
+    width: 30px;
+    height: 30px;
+}
+
+.address {
+    height: 60px;
+    width: 390px;
+    position: relative;
+    font-size: 17px;
+    z-index: 1;
+    top: 402px;
+    left: 950px;
+}
+
+.addressinfo {
+    position: relative;
+    top: -20px;
+    bottom: 5px;
+    font-size: 14px;
+}
+
+/* CSS for EXPERIENCE PAGE */
+.experienceh1 {
+    position: relative;
+    left: -70px;
+    top: -30px;
+}
+
+
+
+.experienceinfo {
+    color: #183d4a;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+
+/* CSS for skills page */
+.skillsh1 {
+    position: relative;
+    left: -70px;
+    top: -30px;
+}
+#webdeveloperillustration {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -70px;
+    left: 600px;
+}
+.skillsinfo {
+    color: #183d4a;
+    font-size: 30px;
+    position: relative;
+    top: 170px;
+    left: 150px;
+}
