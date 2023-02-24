@@ -67,7 +67,7 @@ nav {
     font-size: 17px;
     position: absolute;
     z-index: 1;
-    left: 60%;
+    left: 50%;
     top: 10%;
     letter-spacing: 3px;
 }
@@ -294,4 +294,19 @@ a {
     position: relative;
     top: 170px;
     left: 150px;
+}
+
+/* CSS for Hobbies page */
+
+.hobbiesinfo {
+    color: #183d4a;
+    font-size: 30px;
+    position: relative;
+    top: 170px;
+    left: 150px;
+}
+.hobbiesh1 {
+    position: relative;
+    left: -70px;
+    top: -30px;
 }
